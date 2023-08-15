@@ -22,20 +22,15 @@
     background-color: aqua;
     border: 3px solid black;
     margin: auto;
-    margin-top: 10px;
-}
-
-.fish__pictureContainer {
-    margin: auto;
-    margin-top: .5em;
-    width: 95%;
-    height: 60%;
-    border: 3px solid black;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
 }
 
 .fish__picture {
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding-top: .5vw;
 }
 
 .fish__info {

@@ -1,5 +1,11 @@
-.travel {
-    /* width: 100%; */
+/* .travel {
+    width: 100%;
+    background-color: white;
+    border: 3px solid black;
+    margin: 3px;
+} */
+
+.tips {
     background-color: white;
     border: 3px solid black;
     margin: 3px;
@@ -19,6 +25,12 @@
 
 .tips__list li {
     font-size: 1.25em;
+}
+
+.locations {
+    background-color: white;
+    border: 3px solid black;
+    margin: 3px;
 }
 
 .locations__header {
