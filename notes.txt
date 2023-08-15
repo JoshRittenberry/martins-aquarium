@@ -1,0 +1,106 @@
+Data Design:
+
+    Needs an array of fish that has the following properties:
+        Image
+        Species
+        Length
+        What Martin named the fish
+        Where he harvested the fish
+        What the fish eats
+
+    Needs an array of fish care tips:
+
+    Needs an array of locations:
+
+Style and Layout Design:
+
+    Class Names for components:
+        pageHeader  
+        
+        fish
+            fish__header
+            fish__list
+                fish__container
+                    fish__picture
+                    fish__species
+                    fish__name
+                    fish__location
+                    fish__food
+        
+        cleaning
+            cleaning__header
+            cleaning__text
+            cleaning__list
+        
+        travel
+            tips__header
+            tips__text
+            tips__list
+
+            locations__header
+            locations__text
+            locations__list
+
+website to help with fish info: https://aquariumstoredepot.com/blogs/news/best-freshwater-aquarium-fish
+
+Below is my original html document:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martins Aquarium</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+    <!-- Page Heading -->
+    <h1 class="pageHeader">Martins Aquarium</h1>
+
+    <!-- Fish List -->
+    <section class="fish">
+
+        <!-- I would like there to be a div for each fish -->
+        <div class="fish__container">
+
+            <!-- Picture of the fish -->
+            <img src="" alt="" class="fish__picture">
+            
+            <!-- The species of the fish -->
+            <p class="fish__species"></p>
+
+            <!-- The name of the fish -->
+            <p class="fish__name"></p>
+
+            <!-- The location the fish came from -->
+            <p class="fish__location"></p>
+
+            <!-- The food the fish eats -->
+            <p class="fish__food"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Martin wants there to be a section on the side of the webpage for cleaning tips -->
+    <aside class="cleaning">
+
+        <!-- Conatiner for all the cleaning tips he has -->
+        <p class="cleaning_tips"></p>
+
+    </aside>
+
+    <!-- New section for locations and travel tips -->
+    <section class="travel">
+
+        <p class="travel__tips"></p>
+
+        <p class="travel__locations"></p>
+
+    </section>
+
+</body>
+</html>
+        
