@@ -21,11 +21,13 @@ Style and Layout Design:
             fish__header
             fish__list
                 fish__container
-                    fish__picture
-                    fish__species
-                    fish__name
-                    fish__location
-                    fish__food
+                    fish__pictureContainer
+                        fish__picture
+                    fish__info
+                        fish__species
+                        fish__name
+                        fish__location
+                        fish__food
         
         cleaning
             cleaning__header

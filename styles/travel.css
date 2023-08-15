@@ -1,0 +1,38 @@
+.travel {
+    /* width: 100%; */
+    background-color: white;
+    border: 3px solid black;
+    margin: 3px;
+}
+
+.tips__header {
+    text-align: center;
+    font-size: 2.5em;
+    margin: .25em;
+}
+
+.tips__text {
+    margin: .5em;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.tips__list li {
+    font-size: 1.25em;
+}
+
+.locations__header {
+    text-align: center;
+    font-size: 2.5em;
+    margin: .25em;
+}
+
+.locations__text {
+    margin: .5em;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.locations__list li {
+    font-size: 1.25em;
+}
