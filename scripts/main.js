@@ -12,6 +12,8 @@ for (const fish of allFish) {
 
 import { FishList } from './FishList.js'
 
+console.log(FishList());
+
 const parentHTMLElement = document.querySelector(".fish__list")
 
 parentHTMLElement.innerHTML = FishList()
