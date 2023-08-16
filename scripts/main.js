@@ -16,9 +16,17 @@ cleaningTips.innerHTML = CleaningTips()
 
 
 
-// Imports the CleaningTips() function from cleaning.js
+// Imports the TravelTips() function from travel.js
 import { TravelTips } from './travel.js'
 
 const travelTips = document.querySelector(".tips__list")
 
 travelTips.innerHTML = TravelTips()
+
+
+// Imports the TravelLocations() function from travel.js
+import { TravelLocations } from './travel.js'
+
+const travelLocations = document.querySelector(".locations__list")
+
+travelLocations.innerHTML = TravelLocations()

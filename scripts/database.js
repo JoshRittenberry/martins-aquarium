@@ -177,6 +177,26 @@ const database = {
             tip: "When you arrive at your destination, gradually acclimate your fish to their new environment just as you would when introducing them to a new tank.",
         },
     ],
+    travelLocations: [
+        {
+            location: "South America",
+        },
+        {
+            location: "North America",
+        },
+        {
+            location: "Mexico",
+        },
+        {
+            location: "Central America",
+        },
+        {
+            location: "African Rift Lakes",
+        },
+        {
+            location: "East Asia",
+        },
+    ],
 }
 
 // Exports the fish array
@@ -190,4 +210,8 @@ export const getCleaningTips = () => {
 
 export const getTravelTips = () => {
     return database.travelTips.map(travelTips => ({...travelTips}))
+}
+
+export const getTravelLocations = () => {
+    return database.travelLocations.map(travelLocations => ({...travelLocations}))
 }
