@@ -71,7 +71,7 @@ export const FishList = () => {
                     <p class="fish__size"><strong>Size: </strong>${fish.size}"</p>
                     <p class="fish__species"><strong>Species: </strong>${fish.species}</p>
                     <p class="fish__location"><strong>Native Location: </strong>${fish.location}</p>
-                    <p class="fish__food"><strong>Food: </strong>${fish.food}</p>
+                    <p class="fish__food"><strong>Diet: </strong>${fish.food}</p>
                 </div>
             </div>
             `
@@ -91,7 +91,7 @@ export const FishList = () => {
                     <p class="fish__size"><strong>Size: </strong>${fish.size}"</p>
                     <p class="fish__species"><strong>Species: </strong>${fish.species}</p>
                     <p class="fish__location"><strong>Native Location: </strong>${fish.location}</p>
-                    <p class="fish__food"><strong>Food: </strong>${fish.food}</p>
+                    <p class="fish__food"><strong>Diet: </strong>${fish.food}</p>
                 </div>
             </div>
             `
@@ -111,7 +111,7 @@ export const FishList = () => {
                     <p class="fish__size"><strong>Size: </strong>${fish.size}"</p>
                     <p class="fish__species"><strong>Species: </strong>${fish.species}</p>
                     <p class="fish__location"><strong>Native Location: </strong>${fish.location}</p>
-                    <p class="fish__food"><strong>Food: </strong>${fish.food}</p>
+                    <p class="fish__food"><strong>Diet: </strong>${fish.food}</p>
                 </div>
             </div>
             `

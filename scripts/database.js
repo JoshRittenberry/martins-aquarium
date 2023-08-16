@@ -45,7 +45,7 @@ const database = {
             species: "Xiphophorus hellerii",
             name: "Excalibur",
             size: 4,
-            locations: "Central America",
+            location: "Central America",
             food: "Bug Larvae",
         },
         {
@@ -126,55 +126,55 @@ const database = {
         },
         {
             item: "Prepare Fish Bags",
-            tip: "",
+            tip: "If using plastic bags, make sure they are specifically designed for transporting fish. Fill each bag with some tank water to keep the fish comfortable and minimize stress.",
         },
         {
             item: "Tank Water",
-            tip: "",
+            tip: "Use water from the fish tank to fill the bags or containers. This helps maintain water parameters and reduces stress for the fish.",
         },
         {
             item: "Gradual Acclimation",
-            tip: "",
+            tip: "Before your trip, get your fish accustomed to being in the transport container by placing it in the tank for short periods. This reduces the shock of being suddenly moved.",
         },
         {
             item: "Limit Food",
-            tip: "",
+            tip: "Stop feeding your fish a day or two before the trip. This reduces waste production and keeps water quality stable during travel.",
         },
         {
             item: "Secure the Container",
-            tip: "",
+            tip: "Seal the bags or containers securely to prevent leaks and ensure that fish can't jump out.",
         },
         {
             item: "Insulate and Stabilize",
-            tip: "",
+            tip: "Wrap the transport container in towels or newspaper to insulate it from temperature changes. Place the container in a stable, secure box to prevent excessive movement.",
         },
         {
             item: "Temperature Consideration",
-            tip: "",
+            tip: "Maintain a stable temperature during travel. If it's cold, consider using a small, battery-powered heater or hand warmers (secured outside the container) to keep the water warm.",
         },
         {
             item: "Stay Informed",
-            tip: "",
+            tip: "Research local regulations and airline policies regarding traveling with fish. Some airlines have specific guidelines for carrying aquatic animals.",
         },
         {
             item: "Avoid Stressful Journeys",
-            tip: "",
+            tip: "If the travel time is too long or stressful, consider leaving your fish with a trusted friend, family member, or a professional pet sitter.",
         },
         {
             item: "Stay Calm",
-            tip: "",
+            tip: "Your fish can sense your emotions. Stay calm and handle the fish gently to minimize stress for both you and them.",
         },
         {
             item: "Emergency Kit",
-            tip: "",
+            tip: "Carry an emergency kit containing essentials like dechlorinator, water conditioner, a net, and a small aquarium heater in case of unexpected situations.",
         },
         {
             item: "Health Check",
-            tip: "",
+            tip: "Before and after the journey, monitor your fish for any signs of stress, injury, or illness. Quarantine them if necessary before returning them to the main tank.",
         },
         {
             item: "Gradual Return",
-            tip: "",
+            tip: "When you arrive at your destination, gradually acclimate your fish to their new environment just as you would when introducing them to a new tank.",
         },
     ],
 }
@@ -186,4 +186,8 @@ export const getFish = () => {
 
 export const getCleaningTips = () => {
     return database.cleaningTips.map(cleaningTips => ({...cleaningTips}))
+}
+
+export const getTravelTips = () => {
+    return database.travelTips.map(travelTips => ({...travelTips}))
 }
