@@ -26,6 +26,7 @@ Style and Layout Design:
                     fish__info
                         fish__species
                         fish__name
+                        fish__size
                         fish__location
                         fish__food
         
